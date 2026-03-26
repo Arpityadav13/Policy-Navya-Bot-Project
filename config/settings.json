@@ -1,0 +1,42 @@
+{
+  "app": {
+    "name": "NyayaBot",
+    "version": "1.0.0",
+    "description": "Policy-to-Citizen RAG Chatbot"
+  },
+  "rag": {
+    "chunk_size": 512,
+    "chunk_overlap": 64,
+    "top_k": 5,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "llm_model": "claude-sonnet-4-20250514",
+    "max_tokens": 1500,
+    "temperature": 0.3
+  },
+  "server": {
+    "host": "0.0.0.0",
+    "port": 8000,
+    "reload": false,
+    "log_level": "info"
+  },
+  "languages": {
+    "default": "en",
+    "supported": ["en", "hi", "ta", "bn", "te", "mr", "gu", "kn", "ml", "pa", "ur", "or"],
+    "auto_detect": true
+  },
+  "paths": {
+    "policies_dir": "data/policies",
+    "vector_store": "data/faiss_index",
+    "training_data": "data/training/training_data.json",
+    "logs": "logs/"
+  },
+  "features": {
+    "pdf_upload": true,
+    "multilingual": true,
+    "conversation_history": true,
+    "max_history_turns": 10,
+    "telegram_bot": true,
+    "whatsapp_bot": false,
+    "analytics_dashboard": true
+  }
+}

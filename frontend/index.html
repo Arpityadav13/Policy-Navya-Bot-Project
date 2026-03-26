@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NyayaBot — Policy Explained Simply</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <!-- Ambient Background -->
+  <div class="ambient">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+    <div class="grid-overlay"></div>
+  </div>
+
+  <!-- Header -->
+  <header>
+    <div class="header-inner">
+      <div class="logo">
+        <div class="logo-icon">⚖</div>
+        <div class="logo-text">
+          <span class="logo-main">NyayaBot</span>
+          <span class="logo-sub">Policy · Citizens · Clarity</span>
+        </div>
+      </div>
+      <nav>
+        <a href="#chat">Chat</a>
+        <a href="#policies">Policies</a>
+        <a href="#languages">Languages</a>
+        <a href="dashboard.html">Dashboard</a>
+      </nav>
+      <div class="header-badge">🇮🇳 India</div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <div class="hero-tag">RAG-Powered · Multilingual · Free</div>
+      <h1 class="hero-title">
+        Government Policy,<br/>
+        <span class="accent">Explained for You</span>
+      </h1>
+      <p class="hero-desc">Ask in Hindi, Tamil, Bengali, or English. Get instant answers about welfare schemes, eligibility, benefits, and application processes — in plain language.</p>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num">200+</span><span class="stat-label">Schemes</span></div>
+        <div class="stat"><span class="stat-num">22</span><span class="stat-label">Languages</span></div>
+        <div class="stat"><span class="stat-num">1M+</span><span class="stat-label">Citizens Helped</span></div>
+      </div>
+      <a href="#chat" class="cta-btn">Ask Your Question →</a>
+    </div>
+    <div class="hero-visual">
+      <div class="chat-preview">
+        <div class="preview-msg user">PM Kisan ke liye eligibility kya hai?</div>
+        <div class="preview-msg bot">
+          <div class="typing-dots" id="typingDots"><span></span><span></span><span></span></div>
+          <span id="previewAnswer" style="display:none;">PM-KISAN scheme provides ₹6,000/year to small farmers owning less than 2 hectares. You need Aadhaar, land records, and bank account to apply at <strong>pmkisan.gov.in</strong> or any CSC centre.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Chat Interface -->
+  <section class="chat-section" id="chat">
+    <div class="chat-container">
+      <div class="chat-header">
+        <div class="chat-title">
+          <div class="status-dot"></div>
+          Ask NyayaBot
+        </div>
+        <div class="chat-controls">
+          <select id="langSelect">
+            <option value="en">English</option>
+            <option value="hi">हिंदी</option>
+            <option value="ta">தமிழ்</option>
+            <option value="bn">বাংলা</option>
+            <option value="te">తెలుగు</option>
+            <option value="mr">मराठी</option>
+            <option value="gu">ગુજરાતી</option>
+          </select>
+          <button class="icon-btn" onclick="clearChat()" title="Clear chat">↺</button>
+        </div>
+      </div>
+
+      <div class="chat-messages" id="chatMessages">
+        <div class="welcome-card">
+          <div class="welcome-icon">🏛</div>
+          <h3>Welcome to NyayaBot</h3>
+          <p>I can explain any Indian government scheme in simple language. Try asking:</p>
+          <div class="suggested-queries">
+            <button class="suggest-btn" onclick="sendSuggestion(this)">Am I eligible for PM Awas Yojana?</button>
+            <button class="suggest-btn" onclick="sendSuggestion(this)">How to apply for Ayushman Bharat?</button>
+            <button class="suggest-btn" onclick="sendSuggestion(this)">MGNREGA job card kaise banaye?</button>
+            <button class="suggest-btn" onclick="sendSuggestion(this)">What documents needed for ration card?</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="chat-input-area">
+        <div class="input-row">
+          <button class="attach-btn" title="Upload Policy PDF" onclick="document.getElementById('pdfInput').click()">📎</button>
+          <input type="file" id="pdfInput" accept=".pdf" style="display:none" onchange="handlePDF(this)"/>
+          <textarea id="chatInput" placeholder="Ask about any government scheme, benefit, or eligibility..." rows="1" onkeydown="handleKey(event)" oninput="autoResize(this)"></textarea>
+          <button class="send-btn" onclick="sendMessage()" id="sendBtn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+          </button>
+        </div>
+        <div class="input-meta">
+          <span id="pdfTag" style="display:none" class="pdf-tag">📄 <span id="pdfName"></span> <button onclick="removePDF()">×</button></span>
+          <span class="disclaimer">Powered by Claude AI · Answers are informational, not legal advice</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sidebar -->
+    <div class="chat-sidebar">
+      <div class="sidebar-section">
+        <h4>Popular Schemes</h4>
+        <div class="scheme-list">
+          <div class="scheme-item" onclick="askAbout('PM-KISAN')">
+            <div class="scheme-icon">🌾</div>
+            <div><strong>PM-KISAN</strong><span>Farmer Income Support</span></div>
+          </div>
+          <div class="scheme-item" onclick="askAbout('PM Awas Yojana')">
+            <div class="scheme-icon">🏠</div>
+            <div><strong>PM Awas Yojana</strong><span>Housing for All</span></div>
+          </div>
+          <div class="scheme-item" onclick="askAbout('Ayushman Bharat')">
+            <div class="scheme-icon">🏥</div>
+            <div><strong>Ayushman Bharat</strong><span>Health Insurance</span></div>
+          </div>
+          <div class="scheme-item" onclick="askAbout('MGNREGA')">
+            <div class="scheme-icon">👷</div>
+            <div><strong>MGNREGA</strong><span>Rural Employment</span></div>
+          </div>
+          <div class="scheme-item" onclick="askAbout('Ujjwala Yojana')">
+            <div class="scheme-icon">🔥</div>
+            <div><strong>Ujjwala Yojana</strong><span>Free LPG Connections</span></div>
+          </div>
+          <div class="scheme-item" onclick="askAbout('Jan Dhan Yojana')">
+            <div class="scheme-icon">🏦</div>
+            <div><strong>Jan Dhan Yojana</strong><span>Bank for Everyone</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="sidebar-section">
+        <h4>Chat History</h4>
+        <div id="historyList" class="history-list">
+          <p class="empty-history">No previous chats</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Policies Section -->
+  <section class="policies-section" id="policies">
+    <div class="section-header">
+      <h2>Browse Policy Database</h2>
+      <p>Search across 200+ government schemes and policies</p>
+    </div>
+    <div class="policy-search-bar">
+      <input type="text" placeholder="Search schemes by name, ministry, or benefit type..." oninput="filterPolicies(this.value)"/>
+      <div class="filter-chips">
+        <button class="chip active" onclick="filterByCategory('all', this)">All</button>
+        <button class="chip" onclick="filterByCategory('agriculture', this)">Agriculture</button>
+        <button class="chip" onclick="filterByCategory('health', this)">Health</button>
+        <button class="chip" onclick="filterByCategory('housing', this)">Housing</button>
+        <button class="chip" onclick="filterByCategory('education', this)">Education</button>
+        <button class="chip" onclick="filterByCategory('employment', this)">Employment</button>
+        <button class="chip" onclick="filterByCategory('women', this)">Women</button>
+      </div>
+    </div>
+    <div class="policy-grid" id="policyGrid">
+      <!-- Populated by JS -->
+    </div>
+  </section>
+
+  <!-- How it Works -->
+  <section class="how-section">
+    <div class="section-header">
+      <h2>How NyayaBot Works</h2>
+    </div>
+    <div class="steps-grid">
+      <div class="step-card">
+        <div class="step-num">01</div>
+        <div class="step-icon">📄</div>
+        <h3>Document Ingestion</h3>
+        <p>Policy PDFs are parsed with PyMuPDF, chunked intelligently, and embedded into a FAISS vector store</p>
+      </div>
+      <div class="step-card">
+        <div class="step-num">02</div>
+        <div class="step-icon">🔍</div>
+        <h3>Semantic Retrieval</h3>
+        <p>Your question is embedded and matched against the vector store to find the most relevant policy sections</p>
+      </div>
+      <div class="step-card">
+        <div class="step-num">03</div>
+        <div class="step-icon">🧠</div>
+        <h3>AI Explanation</h3>
+        <p>Claude AI synthesizes retrieved content into a clear, jargon-free answer with eligibility, benefits, and steps</p>
+      </div>
+      <div class="step-card">
+        <div class="step-num">04</div>
+        <div class="step-icon">🌐</div>
+        <h3>Translation</h3>
+        <p>Answers are translated to your preferred language using IndicTrans2 for authentic Indic language support</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="logo-icon small">⚖</div>
+        <span>NyayaBot</span>
+      </div>
+      <p>Open-source · Built for Indian Citizens · MIT License</p>
+      <div class="footer-links">
+        <a href="#">GitHub</a>
+        <a href="#">API Docs</a>
+        <a href="#">Contribute</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

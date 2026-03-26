@@ -1,0 +1,177 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "created": "2024",
+    "description": "NyayaBot Training Data - Indian Government Welfare Schemes",
+    "total_schemes": 15,
+    "languages": ["en", "hi", "ta", "bn", "te", "mr", "gu"],
+    "source": "Official government websites and policy documents"
+  },
+  "policy_documents": [
+    {
+      "id": "pmkisan",
+      "title": "PM-KISAN Samman Nidhi Scheme",
+      "ministry": "Ministry of Agriculture and Farmers Welfare",
+      "launched": "February 2019",
+      "category": "agriculture",
+      "content": "OVERVIEW: PM Kisan Samman Nidhi (PM-KISAN) is a Central Sector Scheme with 100% funding from Government of India. Under this scheme, income support of Rs 6000/- per year is provided to all farmer families across the country in three equal installments of Rs 2000/- each, every four months.\n\nOBJECTIVE: To supplement financial needs of the Small and Marginal Farmers in procuring various inputs to ensure proper crop health and appropriate yields, commensurate with anticipated farm income at the end of each crop cycle and allied activities along with domestic needs.\n\nELIGIBILITY: All land holding farmers families, which have cultivable land as per land records of the concerned State/UT. The scheme was initially for small and marginal farmers with combined holding/ownership of cultivable land up to 2 hectares but has been extended to all farmer families.\n\nEXCLUSIONS: (1) Institutional Land holders. (2) Farmer families in which one or more of its members belong to following categories: Former and present holders of constitutional posts. Former and present Ministers/State Ministers and former/present Members of LokSabha/RajyaSabha/State Legislative Assemblies. Former and present Mayors of Municipal Corporations. Former and present District Panchayat Chairpersons. (3) Serving or retired officers and employees of Central/State Government Ministries/Offices/Departments and their field units. (4) All superannuated/retired pensioners receiving monthly pension of Rs.10,000/-or more. (5) All Persons who paid Income Tax in last assessment year. (6) Professionals like Doctors, Engineers, Lawyers, Chartered Accountants, and Architects registered with Professional bodies and carrying out profession by undertaking practices.\n\nBENEFITS: Rs.6000/- per year in three installments of Rs. 2000/- each. Amount is directly transferred to bank accounts of beneficiaries through DBT (Direct Benefit Transfer) mode.\n\nHOW TO APPLY: Eligible farmers may contact their State/UT Government officials or Common Service Centers (CSC) in their area. PM-KISAN Portal: pmkisan.gov.in. Farmers can self-register at Farmer Corner on the portal.\n\nSTEPS TO APPLY ONLINE: Step 1: Visit pmkisan.gov.in. Step 2: Click on 'Farmer Corner'. Step 3: Click 'New Farmer Registration'. Step 4: Enter Aadhaar Number and select state. Step 5: Fill registration form with land details. Step 6: Submit and note registration number. Step 7: Verification done by state/district officials.\n\nDOCUMENTS REQUIRED: (1) Aadhaar Card (mandatory). (2) Bank account details linked with Aadhaar. (3) Land records/ownership documents (Khasra/Khatauni). (4) Mobile number.\n\nCHECK BENEFICIARY STATUS: Visit pmkisan.gov.in > Farmer Corner > Beneficiary Status > Enter Aadhaar/Account/Mobile number.\n\nHELPLINE: PM-KISAN Helpline: 155261 or 011-24300606. Email: pmkisan-ict@gov.in"
+    },
+    {
+      "id": "ayushman",
+      "title": "Ayushman Bharat Pradhan Mantri Jan Arogya Yojana (AB PM-JAY)",
+      "ministry": "Ministry of Health and Family Welfare",
+      "launched": "September 2018",
+      "category": "health",
+      "content": "OVERVIEW: Ayushman Bharat Pradhan Mantri Jan Arogya Yojana (AB PM-JAY) is the world's largest health insurance/assurance scheme fully financed by the government. It aims at providing a health cover of Rs. 5 lakhs per family per year for secondary and tertiary care hospitalization to over 10.74 crore poor and vulnerable entitled families (approximately 50 crore beneficiaries).\n\nKEY FEATURES: (1) Rs. 5 lakh cover per family per year. (2) No cap on family size and age. (3) Covers pre-existing conditions from day one. (4) Cashless and paperless access to services. (5) 3 days pre-hospitalisation and 15 days post-hospitalisation expenses. (6) 1,929 procedures covered.\n\nELIGIBILITY: Based on Socio-Economic Caste Census (SECC) 2011 data. RURAL CRITERIA - Families in following deprivation categories: D1 (only 1 room with kuccha walls and roof), D2 (no adult member between 16-59 years), D3 (female headed households with no adult male member between 16-59), D4 (differently-abled member and no able-bodied adult member), D5 (SC/ST households), D7 (landless households deriving major part of income from manual casual labour). Automatically included: Primitive tribal groups, legally released bonded labourers. URBAN CRITERIA - 11 occupational categories: Rag pickers, Beggars, Domestic workers, Street vendors, Construction workers, Plumbers, Masons, Electricians, Sanitation workers, Washermen, Sweepers, Home-based workers, Artisans, Handicraft workers, Drivers, Transport workers, Shop workers, Cobblers, Tailors, Peons, Guards.\n\nHOW TO CHECK ELIGIBILITY: (1) Visit pmjay.gov.in and click 'Am I Eligible'. (2) Call 14555 (toll free). (3) Visit nearest Ayushman Mitra at empanelled hospital.\n\nHOW TO GET THE CARD: Step 1: Check eligibility at pmjay.gov.in or call 14555. Step 2: Visit nearest empanelled hospital with Aadhaar or ration card. Step 3: Meet Ayushman Mitra (PM-JAY representative at hospital). Step 4: Show identification proof. Step 5: Get Ayushman Bharat Golden Card generated.\n\nHOW TO GET TREATMENT: Step 1: Walk into any empanelled public or private hospital. Step 2: Show Ayushman card and photo ID. Step 3: Ayushman Mitra verifies your identity. Step 4: Receive cashless treatment. No payment required at hospital.\n\nEMPANELLED HOSPITALS: Over 27,000 hospitals across India. Find hospitals at pmjay.gov.in > Find Hospital.\n\nDOCUMENTS: Aadhaar Card OR Ration Card + any one government photo ID.\n\nHELPLINE: 14555 (toll free, 24x7). Website: pmjay.gov.in"
+    },
+    {
+      "id": "pmay_urban",
+      "title": "Pradhan Mantri Awas Yojana Urban (PMAY-U) - Housing for All",
+      "ministry": "Ministry of Housing and Urban Affairs",
+      "launched": "June 2015",
+      "category": "housing",
+      "content": "OVERVIEW: Pradhan Mantri Awas Yojana (Urban) is a flagship Mission of Government of India which targets providing affordable housing to the urban poor. Mission is being implemented during 2015-2022 (extended) with four verticals.\n\nFOUR VERTICALS: (1) Beneficiary Led Construction (BLC) - for EWS category only, direct grant of Rs. 1.5 lakh. (2) Affordable Housing in Partnership (AHP) - Rs. 1.5 lakh for EWS. (3) In-Situ Slum Redevelopment (ISSR) - for slum dwellers. (4) Credit Linked Subsidy Scheme (CLSS) - interest subsidy on home loans.\n\nCLSS DETAILS: EWS (Annual income up to Rs. 3 lakh): 6.5% interest subsidy on loans up to Rs. 6 lakh. Carpet area up to 30 sq.m. LIG (Annual income Rs. 3-6 lakh): 6.5% interest subsidy on loans up to Rs. 6 lakh. Carpet area up to 60 sq.m. MIG-I (Annual income Rs. 6-12 lakh): 4% interest subsidy on loans up to Rs. 9 lakh. Carpet area up to 160 sq.m. MIG-II (Annual income Rs. 12-18 lakh): 3% interest subsidy on loans up to Rs. 12 lakh. Carpet area up to 200 sq.m.\n\nELIGIBILITY: (1) Beneficiary family should not own a pucca house in applicant's name or spouse's name in any part of India. (2) Should be urban area resident. (3) Annual income within specified limits. (4) Should not have availed Central Govt. housing scheme earlier.\n\nHOW TO APPLY: Option 1 - Online: Visit pmaymis.gov.in > Click 'Citizen Assessment' > Select category > Fill form with Aadhaar. Option 2 - Offline: Visit nearest Common Service Centre (CSC). Option 3 - Through bank/HFC (for CLSS).\n\nDOCUMENTS: Aadhaar Card, Income Certificate, Address proof, Bank account details, Property ownership documents (if any), Caste certificate (SC/ST/OBC), No property ownership certificate (affidavit).\n\nHELPLINE: 1800-11-3377, 1800-11-3388, 011-23063285. Website: pmaymis.gov.in"
+    },
+    {
+      "id": "mgnrega",
+      "title": "Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA)",
+      "ministry": "Ministry of Rural Development",
+      "category": "employment",
+      "content": "OVERVIEW: MGNREGA provides a legal guarantee for one hundred days of employment in every financial year to adult members of any rural household willing to do public work-related unskilled manual work.\n\nKEY PROVISIONS: (1) Legally guaranteed 100 days wage employment per year. (2) Work must be provided within 15 days of demand, else unemployment allowance paid. (3) Work must be within 5km radius of residence. (4) Wages paid within 15 days of work completion. (5) One-third of workers must be women. (6) Equal wages for men and women.\n\nWAGES: State-specific. Ranges from Rs. 204/day (Chhattisgarh) to Rs. 333/day (Haryana). Delhi: Rs. 723/day. Maharashtra: Rs. 273/day. Tamil Nadu: Rs. 294/day.\n\nELIGIBILITY: (1) Must be a resident of rural area. (2) Adult (18 years and above). (3) Willing to do unskilled manual work. (4) Apply for Job Card from Gram Panchayat.\n\nJOB CARD: Issued within 15 days of application. Contains photo, name, address. Needed to access MGNREGA work. Does not expire.\n\nHOW TO REGISTER: Step 1: Visit Gram Panchayat office with Aadhaar and two passport photos. Step 2: Fill application form for Job Card. Step 3: Job Card issued within 15 days. Step 4: Submit written application to Gram Panchayat demanding work. Step 5: Work provided within 15 days. If not, receive unemployment allowance (1/4 of wage for first 30 days, 1/2 thereafter).\n\nWORK TYPES: Road construction, Water conservation, Drought proofing, Flood control, Land development, Rural connectivity, Agriculture and allied activities.\n\nDOCUMENTS: Aadhaar Card, 2 passport-sized photographs, Bank/Post Office account details.\n\nHELPLINE: 1800-345-22-44 (toll free). Website: nrega.nic.in"
+    },
+    {
+      "id": "ujjwala",
+      "title": "Pradhan Mantri Ujjwala Yojana (PMUY)",
+      "ministry": "Ministry of Petroleum and Natural Gas",
+      "launched": "May 2016",
+      "category": "women",
+      "content": "OVERVIEW: Pradhan Mantri Ujjwala Yojana was launched on 1st May 2016 to safeguard the health of women and children by providing them with a clean cooking fuel – LPG, so that they don't have to compromise their health in smoky kitchens or wander in unsafe areas collecting firewood.\n\nUJJWALA 2.0: Launched in August 2021, extends to all BPL families including migrants. Benefits include: Free gas stove + first refill free. Simplified documentation - just self-declaration of address for migrants.\n\nELIGIBILITY: (1) Adult woman. (2) Should not have an LPG connection. (3) From poor household (BPL). Eligible categories: SC/ST households, PMAY (Gramin) beneficiaries, Antyodaya Anna Yojana, Forest dwellers, Most Backward Classes, Tea and ex-Tea Garden Tribes (Assam), People living in Islands, River islands. Ujjwala 2.0: All BPL families including migrants.\n\nBENEFITS: (1) Free LPG connection in woman's name. (2) Security deposit waiver. (3) First refill cylinder free. (4) Free gas stove (EMI option available). (5) 12 subsidized refills per year.\n\nHOW TO APPLY: Option 1 - Online: Visit mylpg.in or ujjwalayojana.com. Option 2 - Offline: Visit nearest LPG distributor (Indane/HP Gas/Bharat Gas). Fill KYC form, submit documents. For migrants: Self-declaration of address valid.\n\nDOCUMENTS: (1) BPL Ration Card OR any proof of BPL status. (2) Aadhaar Card (mandatory). (3) Bank account details. (4) Passport photo. (5) For migrants: Self-declaration of address sufficient (no address proof needed).\n\nHELPLINE: Indane: 1800-2333-555. HP Gas: 1800-233-3555. Bharat Gas: 1800-22-4344. LPG Helpline: 1906. Website: pmuy.gov.in"
+    },
+    {
+      "id": "jan_dhan",
+      "title": "Pradhan Mantri Jan Dhan Yojana (PMJDY)",
+      "ministry": "Ministry of Finance",
+      "launched": "August 2014",
+      "category": "finance",
+      "content": "OVERVIEW: Pradhan Mantri Jan Dhan Yojana (PMJDY) is National Mission for Financial Inclusion to ensure access to financial services, namely Banking/Savings & Deposit Accounts, Remittance, Credit, Insurance, Pension in an affordable manner.\n\nKEY FEATURES: (1) Zero minimum balance account. (2) RuPay Debit Card with Rs. 2 lakh accidental insurance (Enhanced to Rs. 2 lakh for new accounts after 28.8.2018). (3) Overdraft facility of Rs. 10,000 (after 6 months satisfactory operation). (4) No requirement for minimum balance. (5) Life cover of Rs. 30,000 (for accounts opened between 15.8.2014 - 31.1.2015). (6) Access to pension and insurance products. (7) Mobile banking facility.\n\nELIGIBILITY: (1) Any Indian citizen above 10 years of age. (2) Those who do not have a bank account. (3) Those who already have a bank account can also open PMJDY account.\n\nHOW TO OPEN: Step 1: Visit any bank branch or Business Correspondent (Bank Mitra). Step 2: Fill Jan Dhan Account opening form. Step 3: Submit KYC documents. Step 4: Account opened same day. Step 5: RuPay card issued within 15 days.\n\nDOCUMENTS: Officially Valid Documents (any one): Aadhaar Card / Letter issued by UIDAI containing name, address and Aadhaar number. Voter ID Card. Driving License. PAN Card. Passport. NREGA Job Card. If no OVD available, 'Small Account' can be opened with photo and self-certification.\n\nOVERDRAFT: Available after 6 months satisfactory operation. Up to Rs. 10,000 available in two phases - Rs. 5,000 initially. Available for account holders aged 18-65.\n\nHELPLINE: 1800-11-0001 (toll free). Website: pmjdy.gov.in"
+    },
+    {
+      "id": "sukanya",
+      "title": "Sukanya Samriddhi Yojana (SSY)",
+      "ministry": "Ministry of Finance",
+      "category": "women",
+      "content": "OVERVIEW: Sukanya Samriddhi Yojana is a government savings scheme for girl children in India, part of the 'Beti Bachao Beti Padhao' campaign. It offers a high interest rate and tax benefits.\n\nINTEREST RATE: 8.2% per annum (as of 2024), compounded annually.\n\nELIGIBILITY: (1) Account can be opened for a girl child up to age 10. (2) Maximum 2 accounts per family (one per girl child). (3) Third account allowed in case of twin/triplet girls.\n\nDEPOSIT RULES: (1) Minimum deposit: Rs. 250 per year. (2) Maximum deposit: Rs. 1.5 lakh per year. (3) Deposits can be made for 15 years from account opening. (4) Maturity: 21 years from date of account opening OR marriage of girl after 18 years.\n\nWITHDRAWAL: (1) Partial withdrawal (50%) allowed after girl turns 18 for education or marriage. (2) Full withdrawal at maturity (21 years).\n\nTAX BENEFITS: EEE (Exempt-Exempt-Exempt) status: (1) Deposits: Tax deduction under Section 80C. (2) Interest earned: Tax-exempt. (3) Maturity amount: Tax-exempt. Annual limit: Rs. 1.5 lakh under 80C.\n\nHOW TO OPEN: Visit any post office or authorized bank (SBI, HDFC, ICICI, Axis, Canara, etc.) with girl child's birth certificate and guardian's KYC documents.\n\nDOCUMENTS: Girl's birth certificate, Guardian's Aadhaar and PAN, Passport photos of girl and guardian, Address proof.\n\nHELPLINE: National Savings Institute: 011-26103965. Post Office helpline: 1800-266-6868."
+    },
+    {
+      "id": "mudra",
+      "title": "Pradhan Mantri Mudra Yojana (PMMY)",
+      "ministry": "Ministry of Finance / MUDRA",
+      "launched": "April 2015",
+      "category": "employment",
+      "content": "OVERVIEW: Under the aegis of Pradhan Mantri MUDRA Yojana, MUDRA (Micro Units Development & Refinance Agency Ltd.) provides loans up to 10 lakh to non-corporate, non-farm small/micro enterprises.\n\nTHREE CATEGORIES: (1) Shishu: Loans up to Rs. 50,000. For new businesses starting out. (2) Kishore: Loans from Rs. 50,001 to Rs. 5 lakh. For established businesses seeking growth. (3) Tarun: Loans from Rs. 5,00,001 to Rs. 10 lakh. For well-established businesses requiring higher capital.\n\nELIGIBILITY: (1) Non-corporate, non-farm enterprises. (2) Micro and small businesses. (3) Individuals starting income-generating activities. (4) Artisans, shopkeepers, street vendors, small manufacturers. (5) Farmers for allied agricultural activities.\n\nELIGIBLE ACTIVITIES: Manufacturing, processing, trading, service sector. Examples: Vegetable vendors, repair shops, tailoring units, beauty parlors, transport operators, small restaurants, artisans.\n\nINTEREST RATE: As per RBI guidelines and lending institution norms. Generally 8-12% per annum. No collateral required for Shishu and Kishore.\n\nHOW TO APPLY: Step 1: Prepare a business plan. Step 2: Visit any bank, MFI, NBFC, or Small Finance Bank. Step 3: Fill MUDRA loan application form (available at mudra.org.in). Step 4: Submit documents. Step 5: Loan sanctioned within 7-14 days.\n\nDOCUMENTS: (1) Identity proof (Aadhaar, PAN). (2) Address proof. (3) Business proof/plan. (4) 2 passport photos. (5) Last 6 months bank statement. (6) No collateral needed for up to Rs. 10 lakh.\n\nHELPLINE: 1800-180-1111. Website: mudra.org.in"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "id": "qa_001",
+      "question": "What is PM-KISAN scheme?",
+      "answer": "PM-KISAN (Pradhan Mantri Kisan Samman Nidhi) provides ₹6,000 per year to farmer families in 3 installments of ₹2,000 each. Money is directly transferred to bank account. Eligible: farmers with cultivable land. Apply at pmkisan.gov.in.",
+      "scheme": "PM-KISAN",
+      "language": "en",
+      "category": "overview"
+    },
+    {
+      "id": "qa_002",
+      "question": "PM Kisan ke liye kaun eligible hai?",
+      "answer": "PM-KISAN योजना के लिए पात्रता: सभी किसान परिवार जिनके पास कृषि योग्य भूमि है। अपवाद: सरकारी कर्मचारी, आयकर दाता, ₹10,000 से अधिक पेंशन पाने वाले। 2 हेक्टेयर से अधिक जमीन वाले भी अब पात्र हैं।",
+      "scheme": "PM-KISAN",
+      "language": "hi",
+      "category": "eligibility"
+    },
+    {
+      "id": "qa_003",
+      "question": "How to apply for Ayushman Bharat card?",
+      "answer": "To get Ayushman Bharat card: 1) Check eligibility at pmjay.gov.in or call 14555. 2) Visit nearest empanelled hospital. 3) Show Aadhaar/Ration card to Ayushman Mitra. 4) Golden Card generated instantly. Treatment is then cashless at 27,000+ hospitals.",
+      "scheme": "Ayushman Bharat",
+      "language": "en",
+      "category": "application"
+    },
+    {
+      "id": "qa_004",
+      "question": "Documents needed for PM Awas Yojana?",
+      "answer": "PM Awas Yojana documents: Aadhaar Card (mandatory), Income certificate, Bank account details, Address proof, Property/land documents, Caste certificate (SC/ST/OBC if applicable), Self-declaration of not owning pucca house anywhere in India.",
+      "scheme": "PM Awas Yojana",
+      "language": "en",
+      "category": "documents"
+    },
+    {
+      "id": "qa_005",
+      "question": "MGNREGA job card kaise banaye?",
+      "answer": "MGNREGA Job Card बनाने के लिए: 1) ग्राम पंचायत कार्यालय जाएं। 2) आधार कार्ड और 2 पासपोर्ट फोटो लाएं। 3) Job Card आवेदन फॉर्म भरें। 4) 15 दिनों में Job Card मिल जाएगा। 5) इसके बाद काम के लिए आवेदन करें।",
+      "scheme": "MGNREGA",
+      "language": "hi",
+      "category": "application"
+    },
+    {
+      "id": "qa_006",
+      "question": "Ayushman Bharat mein kya kya cover hota hai?",
+      "answer": "आयुष्मान भारत में शामिल: प्रति परिवार ₹5 लाख स्वास्थ्य बीमा, 1,929 चिकित्सा प्रक्रियाएं, पहले से मौजूद बीमारियां (Day 1 से), 3 दिन पहले और 15 दिन बाद का खर्च, परिवार के सभी सदस्य, उम्र की कोई सीमा नहीं। कैशलेस और पेपरलेस इलाज।",
+      "scheme": "Ayushman Bharat",
+      "language": "hi",
+      "category": "benefits"
+    },
+    {
+      "id": "qa_007",
+      "question": "What is the income limit for PM Awas Yojana Urban?",
+      "answer": "PM Awas Yojana Urban income limits: EWS category: up to ₹3 lakh/year (6.5% subsidy). LIG category: ₹3-6 lakh/year (6.5% subsidy). MIG-I: ₹6-12 lakh/year (4% subsidy). MIG-II: ₹12-18 lakh/year (3% subsidy). No income limit for rural version.",
+      "scheme": "PM Awas Yojana",
+      "language": "en",
+      "category": "eligibility"
+    },
+    {
+      "id": "qa_008",
+      "question": "Ujjwala Yojana ke liye kya documents chahiye?",
+      "answer": "PM Ujjwala Yojana के दस्तावेज: 1) BPL राशन कार्ड या गरीबी का प्रमाण। 2) आधार कार्ड (अनिवार्य)। 3) बैंक खाता विवरण। 4) पासपोर्ट फोटो। प्रवासी के लिए: बस स्व-घोषणा पत्र काफी है, कोई पता प्रमाण नहीं चाहिए।",
+      "scheme": "Ujjwala Yojana",
+      "language": "hi",
+      "category": "documents"
+    },
+    {
+      "id": "qa_009",
+      "question": "How many days of work MGNREGA guarantees?",
+      "answer": "MGNREGA guarantees 100 days of wage employment per year per household. Work must be provided within 15 days of demand. If not, unemployment allowance is paid (1/4 wage for first 30 days, 1/2 wage for remaining days). At least 1/3 workers must be women.",
+      "scheme": "MGNREGA",
+      "language": "en",
+      "category": "benefits"
+    },
+    {
+      "id": "qa_010",
+      "question": "Jan Dhan account ke kya fayde hain?",
+      "answer": "Jan Dhan खाते के फायदे: 1) जीरो बैलेंस खाता। 2) RuPay डेबिट कार्ड। 3) ₹2 लाख दुर्घटना बीमा। 4) ₹30,000 जीवन बीमा। 5) ₹10,000 तक ओवरड्राफ्ट सुविधा। 6) मोबाइल बैंकिंग। 7) DBT से सीधे पैसे मिलते हैं।",
+      "scheme": "Jan Dhan Yojana",
+      "language": "hi",
+      "category": "benefits"
+    }
+  ],
+  "multilingual_greetings": {
+    "en": "Hello! I'm NyayaBot. How can I help you understand government schemes today?",
+    "hi": "नमस्ते! मैं NyayaBot हूं। आज मैं आपको सरकारी योजनाओं के बारे में कैसे बता सकता हूं?",
+    "ta": "வணக்கம்! நான் NyayaBot. இன்று அரசு திட்டங்களைப் பற்றி உங்களுக்கு எவ்வாறு உதவலாம்?",
+    "bn": "নমস্কার! আমি NyayaBot। আজ সরকারি প্রকল্প সম্পর্কে আপনাকে কীভাবে সাহায্য করতে পারি?",
+    "te": "నమస్కారం! నేను NyayaBot. ఈ రోజు ప్రభుత్వ పథకాల గురించి మీకు ఎలా సహాయం చేయగలను?",
+    "mr": "नमस्कार! मी NyayaBot आहे. आज मी तुम्हाला सरकारी योजनांबद्दल कसे मदत करू शकतो?",
+    "gu": "નમસ્તે! હું NyayaBot છું. આજે હું સરકારી યોજનાઓ વિશે તમને કેવી રીતે મદદ કરી શકું?"
+  },
+  "common_questions": [
+    "Am I eligible for PM-KISAN?",
+    "How to check Ayushman Bharat eligibility?",
+    "What documents are needed for PM Awas Yojana?",
+    "How to get MGNREGA job card?",
+    "PM Kisan payment status kaise check karein?",
+    "Free LPG connection kaise milegi?",
+    "Jan Dhan account kaise kholein?",
+    "PM Mudra loan ke liye apply kaise karein?",
+    "Sukanya Samriddhi Yojana ke liye minimum deposit kitni hai?",
+    "PMAY income limit kya hai?"
+  ]
+}
