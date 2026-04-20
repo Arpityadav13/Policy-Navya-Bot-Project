@@ -471,7 +471,7 @@ Answer in: {language}
         self.translator = TranslationEngine()
         
         # Load or build index
-        if not self.vector_store.load():
+        if True:  # Always rebuild index to avoid dimension mismatch
             logger.info("Building new vector index from policy documents...")
             self.ingest_all_policies()
 
