@@ -205,8 +205,10 @@ class EmbeddingEngine:
     def __init__(self, model: str = "sentence-transformers/all-MiniLM-L6-v2"):
         self.model_name = model
         self.model = None
-        self.dimension = 384  # MiniLM default
+        self.dimension = 384
+        self.vectorizer = None   # ✅ ADD THIS
         self._load_model()
+        
 
     def _load_model(self):
         try:
