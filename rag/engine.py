@@ -211,13 +211,9 @@ class EmbeddingEngine:
         
 
     def _load_model(self):
-        try:
-            from sentence_transformers import SentenceTransformer
-            self.model = SentenceTransformer(self.model_name)
-            logger.info(f"Loaded embedding model: {self.model_name}")
-        except ImportError:
-            logger.warning("sentence-transformers not installed. Using simple TF-IDF fallback.")
-            self.model = None
+        # Use TF-IDF only - no heavy torch/sentence-transformers needed
+        self.model = None
+        logger.info("Using TF-IDF embeddings (lightweight deployment mode)")
 
     def embed(self, texts: List[str]) -> np.ndarray:
         """Generate embeddings for a list of texts"""
